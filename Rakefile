@@ -3,10 +3,10 @@
 $LOAD_PATH.unshift File.expand_path("lib", File.dirname(__FILE__))
 
 require "rspec/core/rake_task"
-require "gemspec_deps_gem/version"
+require "gemspec_deps_gen/version"
 
 def version
-  GemspecDepsGem::VERSION
+  GemspecDepsGen::VERSION
 end
   
 def project_name
