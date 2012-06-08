@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff5d788-a599-4460-bba2-66ee4aef909f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.rvmrc" afterPath="$PROJECT_DIR$/.rvmrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gemspec_deps_gen.gemspec" afterPath="$PROJECT_DIR$/gemspec_deps_gen.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/gemspec_deps_gem/version.rb" afterPath="$PROJECT_DIR$/lib/gemspec_deps_gem/version.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/gemspec_deps_gem/gemspec_deps_gen.rb" afterPath="$PROJECT_DIR$/lib/gemspec_deps_gen/gemspec_deps_gen.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/gemspec_deps_gem/version.rb" afterPath="$PROJECT_DIR$/lib/gemspec_deps_gen/version.rb" />
     </list>
     <ignored path="gemspec_deps_gen.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,7 +53,7 @@
         </entry>
       </file>
       <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/gemspec_deps_gem/version.rb">
+        <entry file="file://$PROJECT_DIR$/lib/gemspec_deps_gen/version.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="3" column="9" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
               <folding />
@@ -75,7 +71,7 @@
         </entry>
       </file>
       <file leaf-file-name="gemspec_deps_gen.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/gemspec_deps_gem/gemspec_deps_gen.rb">
+        <entry file="file://$PROJECT_DIR$/lib/gemspec_deps_gen/gemspec_deps_gen.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="31" column="28" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
               <folding />
@@ -188,7 +184,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gemspec_deps_gem" />
+              <option name="myItemId" value="gemspec_deps_gen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,7 +351,7 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/gemspec_deps_gem/gemspec_deps_gen.rb">
+    <entry file="file://$PROJECT_DIR$/lib/gemspec_deps_gen/gemspec_deps_gen.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="28" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
           <folding />
@@ -390,7 +386,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/gemspec_deps_gem/gemspec_deps_gen.rb">
+    <entry file="file://$PROJECT_DIR$/lib/gemspec_deps_gen/gemspec_deps_gen.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="0" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
           <folding />
@@ -432,14 +428,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/gemspec_deps_gem/gemspec_deps_gen.rb">
+    <entry file="file://$PROJECT_DIR$/lib/gemspec_deps_gen/gemspec_deps_gen.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="28" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/gemspec_deps_gem/version.rb">
+    <entry file="file://$PROJECT_DIR$/lib/gemspec_deps_gen/version.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="9" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
           <folding />
