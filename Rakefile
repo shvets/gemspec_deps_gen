@@ -17,6 +17,10 @@ task :build do
   system "gem build #{project_name}.gemspec"
 end
 
+task :install do
+  system "gem install #{project_name}-#{version}.gem"
+end
+
 task :release => :build do
   system "gem push #{project_name}-#{version}.gem"
 end

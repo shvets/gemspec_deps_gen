@@ -1,10 +1,12 @@
 source :rubygems
 
 group :default do
+  gem "bundler"
+  gem "file_utils"
 end
 
 group :development do
-  gem "bundler"
+  gem "gemcutter"
 end
 
 group :test do
