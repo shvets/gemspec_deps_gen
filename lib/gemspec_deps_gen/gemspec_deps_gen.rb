@@ -11,7 +11,7 @@ class GemspecDepsGen
   def generate_dependencies source, target
     include_dependencies = generate_included_dependencies
 
-    write_to_file(execute_template(source, binding), target)
+    write_content_to_file(execute_template(source, binding), target)
   end
 
   def generate_included_dependencies
