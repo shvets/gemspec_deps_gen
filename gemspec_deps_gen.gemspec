@@ -14,5 +14,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
   spec.version       = GemspecDepsGen::VERSION
+
+  spec.add_development_dependency "file_utils", [">= 0"]
 end
 
