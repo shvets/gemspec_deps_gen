@@ -7,3 +7,7 @@
 == Version 1.0.4
 
 * Adding missing dependency to file_utils.
+
+== Version 1.0.5
+
+* Fixing gemspec file.

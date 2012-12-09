@@ -15,6 +15,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.version       = GemspecDepsGen::VERSION
 
-  spec.add_development_dependency "file_utils", [">= 0"]
+  spec.add_dependency "file_utils", [">= 0"]
 end
 
