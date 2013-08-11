@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 
-require File.expand_path(File.dirname(__FILE__) + '/lib/gemspec_deps_gen/gemspec_deps_gen/version')
+require File.expand_path(File.dirname(__FILE__) + '/lib/gemspec_deps_gen/version')
 
 Gem::Specification.new do |spec|
   spec.name          = "gemspec_deps_gen"

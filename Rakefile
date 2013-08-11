@@ -2,7 +2,7 @@
 
 $LOAD_PATH.unshift File.expand_path("lib", File.dirname(__FILE__))
 
-require "gemspec_deps_gen/gemspec_deps_gen/version"
+require "gemspec_deps_gen/version"
 
 def version
   GemspecDepsGen::VERSION

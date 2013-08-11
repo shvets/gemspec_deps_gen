@@ -1,0 +1,1 @@
+require 'gemspec_deps_gen/gemspec_deps_gen'
