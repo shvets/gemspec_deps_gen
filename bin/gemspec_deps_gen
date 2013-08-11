@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+
+$:.unshift(File::join(File::dirname(File::dirname(__FILE__)), "lib"))
+
+require 'gemspec_deps_gen'
+
+USAGE= <<-TEXT
+    Usage:
+      gemspec_deps_gen project_name - generates .gemspec file with included dependencies from Gemspec file
+TEXT
+
+if ARGV.size == 0
+  puts USAGE
+else
+  project_name = ARGV.shift
+
+  generator = GemspecDepsGen.new project_name
+
+  generator.generate_dependencies "spec", "#{project_name}.gemspec.erb", "#{project_name}.gemspec"
+end
