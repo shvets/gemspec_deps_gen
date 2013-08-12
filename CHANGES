@@ -11,3 +11,7 @@
 == Version 1.0.5
 
 * Fixing gemspec file.
+
+== Version 1.1.1
+
+* Refactoring; adding sample gem; cleaning API; bug fixes.

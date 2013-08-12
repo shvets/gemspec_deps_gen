@@ -13,12 +13,12 @@ class GemspecDepsGen
   end
 
   def generate_dependencies spec_name, source, target
-    dependencies = generate_included_dependencies spec_name
+    project_dependencies = generate_project_dependencies spec_name
 
     write_content_to_file(execute_template(source, binding), target)
   end
 
-  def generate_included_dependencies spec_name
+  def generate_project_dependencies spec_name
     text = "\n"
 
     bundler_gems(:default).each do |gem|

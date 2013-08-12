@@ -1,4 +1,4 @@
-# gemspec_deps_gen - gem for generating dependencies inside gemspec file
+# gemspec_deps_gen - gem for generating project dependencies inside gemspec file
 
 ## Installation
 
@@ -28,12 +28,12 @@ Gem::Specification.new do |spec|
 
   spec.version = "1.0.0"
 
-  <%= dependencies %>
+  <%= project_dependencies %>
 end
 
 ```
 
-You can see ERB fragment (dependencies) included inside the body of the specification.
+You can see ERB fragment (project_dependencies) included inside the body of the specification.
 
 Now, run this command:
 
