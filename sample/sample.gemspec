@@ -10,7 +10,6 @@ Gem::Specification.new do |spec|
   spec.test_files = spec.files.grep(%r{^(test|spec|features)/})
 
   spec.version = "1.0.0"
-
   
   spec.add_runtime_dependency "bundler", [">= 0"]
   spec.add_runtime_dependency "file_utils", [">= 0"]

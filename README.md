@@ -1,4 +1,5 @@
-# gemspec_deps_gen - gem for generating project dependencies inside gemspec file
+# gemspec_deps_gen
+# gem for generating project dependencies inside gemspec file
 
 ## Installation
 
@@ -12,7 +13,7 @@ And then execute:
 
 ## Usage
 
-Create <project_name>.erb file:
+Create <project_name>.gemspec.erb file:
 
 ```ruby
 Gem::Specification.new do |spec|
@@ -39,7 +40,7 @@ Now, run this command:
 
 
 ```bash
-  gemspec_deps_gen <project_name>
+$ gemspec_deps_gen <project_name>
 ```
 
 It will generate <project_name>.gemspec and replace ERB fragment with dependencies from Gemfile:
@@ -55,6 +56,25 @@ Gem::Specification.new do |spec|
 
 end
 ```
+
+As alternative, you can call it as rake command:
+
+```rake
+require "gemspec_deps_gen"
+
+project_name = <your project name>
+
+task :gen do
+  generator = GemspecDepsGen.new project_name
+
+  generator.generate_dependencies "spec", "#{project_name}.gemspec.erb", "#{project_name}.gemspec"
+end
+```
+
+```bash
+$ rake gen
+```
+
 
 ## Contributing
 

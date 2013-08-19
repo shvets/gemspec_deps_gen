@@ -4,10 +4,6 @@ require 'file_utils'
 class GemspecDepsGen
   include FileUtils
 
-  def initialize project_name
-    @project_name = project_name
-  end
-
   def bundler_gems group
     Bundler.environment.dependencies.select { |d| d.groups.include?(group) }.collect
   end
@@ -15,7 +11,11 @@ class GemspecDepsGen
   def generate_dependencies spec_name, source, target
     project_dependencies = generate_project_dependencies spec_name
 
-    write_content_to_file(execute_template(source, binding), target)
+    if target
+      write_content_to_file(execute_template(source, binding), target)
+    else
+      puts project_dependencies
+    end
   end
 
   def generate_project_dependencies spec_name

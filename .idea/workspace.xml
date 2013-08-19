@@ -4,22 +4,25 @@
     <list default="true" id="7ff5d788-a599-4460-bba2-66ee4aef909f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGES" afterPath="$PROJECT_DIR$/CHANGES" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/Rakefile" afterPath="$PROJECT_DIR$/sample/Rakefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gemspec_deps_gen.iml" afterPath="$PROJECT_DIR$/.idea/gemspec_deps_gen.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/gemspec_deps_gen/gemspec_deps_gen.rb" afterPath="$PROJECT_DIR$/lib/gemspec_deps_gen/gemspec_deps_gen.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gemspec_deps_gen" afterPath="$PROJECT_DIR$/bin/gemspec_deps_gen" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/sample.gemspec.erb" afterPath="$PROJECT_DIR$/sample/sample.gemspec.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/sample.gemspec" afterPath="$PROJECT_DIR$/sample/sample.gemspec" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/gemspec_deps_gen/version.rb" afterPath="$PROJECT_DIR$/lib/gemspec_deps_gen/version.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gemspec_deps_gen.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376339616178" ignored="false" />
+    <file path="/Dummy.txt" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376884160098" ignored="false" />
     <file path="/.ruby-version" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376226875902" ignored="false" />
     <file path="/version.rb" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376226799994" ignored="false" />
     <file path="/sample.gemspec" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376225289850" ignored="false" />
     <file path="/Rakefile" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376225931879" ignored="false" />
     <file path="/gemspec_deps_gen.gemspec" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376227626222" ignored="false" />
-    <file path="/gemspec_deps_gen.rb" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376226413659" ignored="false" />
+    <file path="/gemspec_deps_gen.rb" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376883836949" ignored="false" />
     <file path="/temp.rb" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376149384944" ignored="false" />
     <file path="/sample.rb" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376184286307" ignored="false" />
     <file path="/sample.gemspec.erb" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376225881300" ignored="false" />
@@ -34,10 +37,13 @@
     <file path="$PROJECT_DIR$/../file_utils/.ruby-version" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376226876221" ignored="false" />
     <file path="$PROJECT_DIR$/../file_utils/Gemfile.lock" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376227104030" ignored="false" />
     <file path="/README.md" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376228404528" ignored="false" />
-    <file path="/gemspec_deps_gen" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376229585016" ignored="false" />
+    <file path="/gemspec_deps_gen" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376883375537" ignored="false" />
     <file path="/gemspec_deps_gen.bat" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376227792094" ignored="false" />
     <file path="/genspec_deps_gen.rb" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376228696111" ignored="false" />
     <file path="/a.dummy" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376339732704" ignored="false" />
+    <file path="$PROJECT_DIR$/../google-translate/lib/google_translate/translate_cli.rb" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376340673716" ignored="false" />
+    <file path="$PROJECT_DIR$/../docs/blog/using_gemfile_gems_inside_gemspec.md" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376344057873" ignored="false" />
+    <file path="/CHANGES" changelist="7ff5d788-a599-4460-bba2-66ee4aef909f" time="1376882825470" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,25 +66,16 @@
       <file leaf-file-name="sample.gemspec.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample/sample.gemspec.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="22" selection-start="423" selection-end="423" vertical-scroll-proportion="-8.96">
+            <state line="12" column="6" selection-start="395" selection-end="395" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="Rakefile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sample/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CHANGES" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CHANGES">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="47" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+            <state line="24" column="10" selection-start="476" selection-end="476" vertical-scroll-proportion="0.58441556">
               <folding />
             </state>
           </provider>
@@ -87,25 +84,7 @@
       <file leaf-file-name="gemspec_deps_gen" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/gemspec_deps_gen">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="76" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sample.gemspec" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample/sample.gemspec">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample/Rakefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="21" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+            <state line="15" column="127" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,30 +93,36 @@
       <file leaf-file-name="gemspec_deps_gen.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/gemspec_deps_gen/gemspec_deps_gen.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="43" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+            <state line="16" column="31" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <file leaf-file-name="sample.gemspec" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample/sample.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+            <state line="19" column="134" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="CHANGES" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CHANGES">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="70" selection-start="914" selection-end="914" vertical-scroll-proportion="0.45229682">
+            <state line="20" column="2" selection-start="270" selection-end="292" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/gemspec_deps_gen/version.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="39" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -163,18 +148,18 @@
         <option value="$PROJECT_DIR$/spec/sample/lib/sample.rb" />
         <option value="$PROJECT_DIR$/lib/sample/Rakefile" />
         <option value="$PROJECT_DIR$/sample/lib/sample.rb" />
-        <option value="$PROJECT_DIR$/sample/sample.gemspec" />
-        <option value="$PROJECT_DIR$/sample/Rakefile" />
         <option value="$PROJECT_DIR$/bin/gemspec_deps_gen.bat" />
         <option value="$PROJECT_DIR$/lib/gemspec_deps_gen/genspec_deps_gen.rb" />
         <option value="$PROJECT_DIR$/gemspec_deps_gen.gemspec" />
         <option value="$PROJECT_DIR$/Rakefile" />
-        <option value="$PROJECT_DIR$/bin/gemspec_deps_gen" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/lib/gemspec_deps_gen/gemspec_deps_gen.rb" />
-        <option value="$PROJECT_DIR$/sample/sample.gemspec.erb" />
         <option value="$PROJECT_DIR$/lib/gemspec_deps_gen/version.rb" />
         <option value="$PROJECT_DIR$/CHANGES" />
+        <option value="$PROJECT_DIR$/bin/gemspec_deps_gen" />
+        <option value="$PROJECT_DIR$/sample/sample.gemspec.erb" />
+        <option value="$PROJECT_DIR$/lib/gemspec_deps_gen/gemspec_deps_gen.rb" />
+        <option value="$PROJECT_DIR$/sample/sample.gemspec" />
+        <option value="$PROJECT_DIR$/sample/Rakefile" />
       </list>
     </option>
   </component>
@@ -297,8 +282,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -407,14 +392,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="240" y="142" width="1588" height="1058" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882413" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298647" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25616083" sideWeight="0.67013526" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2697795" sideWeight="0.67013526" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -423,11 +409,10 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298647" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="jenkinsBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -474,7 +459,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="new version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extending command line" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -489,24 +474,25 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="new version" />
+    <MESSAGE value="Extending command line" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.ruby-gemset">
+    <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" />
+        <state line="21" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="0.54545456" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/gemspec_deps_gen.bat">
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="52" selection-start="97" selection-end="97" vertical-scroll-proportion="0.05059022" />
+        <state line="21" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/Gemfile">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="29" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -518,91 +504,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sample/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="31" selection-end="132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="804" selection-end="804" vertical-scroll-proportion="-5.5925927">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ruby-gemset">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ruby-version">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="121" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gemspec_deps_gen.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="73" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="359" selection-end="359" vertical-scroll-proportion="0.54545456">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/sample.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/gemspec_deps_gen">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="76" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
+        <state line="2" column="73" selection-start="100" selection-end="100" vertical-scroll-proportion="0.032967035">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/gemspec_deps_gen/gemspec_deps_gen.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="43" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+        <state line="16" column="31" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/Rakefile">
+    <entry file="file://$PROJECT_DIR$/bin/gemspec_deps_gen">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="21" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+        <state line="15" column="127" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/sample.gemspec.erb">
+    <entry file="file://$PROJECT_DIR$/sample/sample.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="22" selection-start="423" selection-end="423" vertical-scroll-proportion="-8.96">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/gemspec_deps_gen/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="39" selection-end="39" vertical-scroll-proportion="0.02698145">
+        <state line="19" column="134" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CHANGES">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="47" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+        <state line="20" column="2" selection-start="270" selection-end="292" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/lib/gemspec_deps_gen/version.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="70" selection-start="914" selection-end="914" vertical-scroll-proportion="0.45229682">
+        <state line="3" column="39" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/sample.gemspec.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="6" selection-start="395" selection-end="395" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="10" selection-start="476" selection-end="476" vertical-scroll-proportion="0.58441556">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

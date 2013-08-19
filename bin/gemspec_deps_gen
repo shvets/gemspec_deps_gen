@@ -4,19 +4,23 @@ $:.unshift(File::join(File::dirname(File::dirname(__FILE__)), "lib"))
 
 require 'gemspec_deps_gen'
 
-USAGE= <<-TEXT
+USAGE = <<-TEXT
     Usage:
-      gemspec_deps_gen project_name - generates .gemspec file with included dependencies from Gemspec file
+      gemspec_deps_gen in_template <out_file> - generates .gemspec file from template based on dependencies from Gemspec file
+      where in_template - input gemspec erb template
+            out_file    - generated gemspec file
+      if second parameter is missing, result will be outputted to console.
 TEXT
 
 if ARGV.size == 0
   puts USAGE
 else
-  project_name = ARGV.shift
+  in_template = ARGV.shift
+  out_file = ARGV.size == 1 ? ARGV.shift : nil
 
-  generator = GemspecDepsGen.new project_name
+  generator = GemspecDepsGen.new
 
-  generator.generate_dependencies "spec", "#{project_name}.gemspec.erb", "#{project_name}.gemspec"
+  generator.generate_dependencies "spec", in_template, out_file
 
-  puts "File #{project_name}.gemspec was generated."
+  puts "File #{out_file} was generated." if out_file
 end
